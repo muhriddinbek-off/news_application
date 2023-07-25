@@ -18,9 +18,12 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: TextField(
+                textAlign: TextAlign.center,
                 decoration: InputDecoration(
+                  suffixIcon: Icon(Icons.search),
                   border: InputBorder.none,
                   hintText: 'Dogecoin to the Moon...',
+                  alignLabelWithHint:,
                   hintStyle: TextStyle(fontSize: 12, fontWeight: FontWeight.w600, color: Color(0xFF818181)),
                 ),
               ),
